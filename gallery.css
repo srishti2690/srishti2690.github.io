@@ -1,0 +1,105 @@
+body{
+	background-color: #D95A4E;
+}
+nav{
+	background-color:#F2C7BD;
+
+	width: 100vw;
+
+	margin-bottom: 50px;
+
+	max-width: 100%;
+}
+body{
+	margin:0;
+}
+@media (max-width:1250px) {
+nav{
+	text-align: center;
+}
+}
+
+
+
+ li{
+	list-style: none;
+	display: inline-block;
+
+	font-family: Concert One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	line-height: 37px;
+	margin-right: 20px;
+	max-width: 100%;
+
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+a:hover{
+	color:brown;
+}
+nav ul{
+	text-align: right;
+	display:inline-block;
+	max-width: 100%;
+}
+
+
+nav img{
+
+max-width: 556px;
+height: 180px;
+left: 27px;
+top: 10px;
+width: 100%;
+}
+header p{
+
+width: 458px;
+height: 61px;
+left: 49px;
+top: 234px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 66px;
+}
+header img{
+
+width: 1275px;
+height: 194px;
+left: 80px;
+top: 364px;
+
+}
+section p{
+
+height: 61px;
+left: 49px;
+top: 627px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 66px;
+}
+
+section img{
+
+width: 1275px;
+height: 188px;
+left: 80px;
+top: 740px;
+}
+
+@media (max-width:350px) {
+section p{
+	font-size: 34px;
+}
+}
